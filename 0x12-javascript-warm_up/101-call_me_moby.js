@@ -2,7 +2,7 @@
 
 const callMeMoby = (x, theFunction) => {
   if (x > 0) {
-    theFuction();
+    theFunction();
     callMeMoby(x - 1, theFunction);
   }
 };
