@@ -1,8 +1,8 @@
 #!/usr/bin/node
 
-const addMe = (number, theFunction) => {
+const addMeMaybe = (number, theFunction) => {
   number++;
   theFunction(number);
 };
 
-module.exports.addMe = addMe;
+module.exports.addMeMaybe = addMeMaybe;
